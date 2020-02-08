@@ -1,0 +1,53 @@
+.Presentacion{
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.LH{
+    border-top: double black 3px;
+}
+
+h4{
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    color: #85499C;
+}
+
+.foto{
+    height: 230px;
+    margin-top: 20px;
+}
+.info{
+    background: rgb(242,238,244);
+    background: linear-gradient(0deg, rgba(242,238,244,1) 0%, rgba(200,168,214,1) 100%);
+    border-right: black solid 3px;
+}
+
+.info_personal{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Objetivo{
+    text-align: justify;
+}
+
+.estudios{
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+.lista{
+    list-style: none;
+    padding-inline-start: 30px;
+}
