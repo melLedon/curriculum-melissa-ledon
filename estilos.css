@@ -1,3 +1,7 @@
+body{
+    font-family: 'Forum', cursive;
+}
+
 .Presentacion{
     text-align: end;
     margin-bottom: 20px;
@@ -6,24 +10,34 @@
 .LH{
     border-top: double black 3px;
 }
+h1, h3{
+    font-weight: bold;
+}
 
-h4{
+h5{
+    font-weight: bold;
     text-align: center;
     margin: 20px;
 }
 
 h2{
-    color: #85499C;
+    color: #654985;
+    font-weight: bold;
 }
+
 
 .foto{
     height: 230px;
     margin-top: 20px;
 }
 .info{
-    background: rgb(242,238,244);
-    background: linear-gradient(0deg, rgba(242,238,244,1) 0%, rgba(200,168,214,1) 100%);
-    border-right: black solid 3px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(234,214,246,1) 55%, rgba(176,124,255,1) 100%);
+}
+
+.info2{
+    border-left: black solid 3px;
+    background-color: white;
 }
 
 .info_personal{
@@ -31,6 +45,16 @@ h2{
     padding-right: 20px;
 }
 
+.lista1{
+    padding-top: 30px;
+}
+
+.iconos{
+    padding-right: 60px;
+}
+.izq{
+    padding-left: 77px;
+}
 .contacto{
     display: flex;
     flex-direction: column;
@@ -39,6 +63,7 @@ h2{
 }
 
 .Objetivo{
+    padding-top: 30px;
     text-align: justify;
 }
 
